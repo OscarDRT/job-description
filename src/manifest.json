@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Mi extensión",
+  "version": "1.0",
+  "description": "Una extensión que genera descripciones de productos con OpenAI.",
+  "background": {
+    "service_worker": "background/index.js"
+  },
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_title": "OpenAI Descripción de Producto"
+  },
+  "permissions": ["activeTab"]
+}

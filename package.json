@@ -1,0 +1,28 @@
+{
+  "name": "job-description",
+  "version": "1.0.0",
+  "description": "Extension that generates a description for a job offer from basic information. ",
+  "main": "background/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarDRT/job-description.git"
+  },
+  "author": "https://github.com/OscarDRT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarDRT/job-description/issues"
+  },
+  "homepage": "https://github.com/OscarDRT/job-description#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-extension-reloader": "^1.1.4"
+  }
+}
